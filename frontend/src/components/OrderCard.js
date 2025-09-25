@@ -69,7 +69,7 @@ const OrderCard = ({ order, onEdit }) => {
             }}
           >
             <Typography variant="caption" color="text.secondary" sx={{ mb: 1, textAlign: 'right' }}>
-              {new Date(order.createdAt).toLocaleString('zh-TW')}
+              {new Date(order.updatedAt).toLocaleString('zh-TW')}
             </Typography>
             
             {isEditing ? (
